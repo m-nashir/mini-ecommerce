@@ -19,16 +19,11 @@
     transition: .2s;
     scroll-behavior: smooth;
 }
-#header, #main, #footer{
-    max-width: 1350px;
-    margin: auto;
-    margin: 0 50px;
-}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 22px 80px;
 }
 .logo a{
     font-size: 24px;
@@ -57,4 +52,54 @@
 }
 .account:hover{
     background-color: rgba(254, 95, 85, 0.7);
+}
+
+/* HERO-BANNER */
+.hero-banner{
+    height: 90vh;
+    background-color: var(--main-color);
+    color:#EEF5DB; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  
+}
+.left-hero{
+    padding-left: 70px;
+    color: var(--text-color);
+    margin-top: -80px;
+}
+.left-hero h1:nth-child(1){
+    font-weight: 500;
+    font-size: 16px;
+}
+.left-hero h1:nth-child(2){
+    font-weight: 700;
+    font-size: 50px;
+}
+.left-hero .sp1{
+    color: var(--black);
+}
+.left-hero .sp2{
+    color: var(--black);
+}
+.left-hero p{
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 500;
+    margin: 10px 0 30px 0;
+}
+.right-hero img{
+    width: 700px;
+}
+.btn{
+    border: 2px solid #EEF5DB;
+    padding: 12px 26px;
+    color: var(--text-color);
+    font-weight: 500;
+    border-radius: 50px;
+}
+.btn-check:hover{
+    background-color: var(--text-color);
+    color:var(--main-color)
 }
