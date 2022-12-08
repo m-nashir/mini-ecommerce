@@ -216,7 +216,6 @@
 }
 
 /*TESTIMONIAL*/
-
 .box-testimonial{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -247,4 +246,24 @@
 .fa-quote-left{
     font-size: 30px;
     color: var(--main-color);
+}
+
+/* BRANDS */
+.box-brands{
+    display: flex;
+    padding: 0px 200px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.pict-brands{
+    width: 160px;
+    margin: 0 15px;
+}
+.pict-brands img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.pict-brands img:hover{
+    filter: none;
 }
