@@ -320,3 +320,12 @@
 .app-logo img{
     width: 140px;
 }
+.footer hr{
+    margin: 10px 40px;
+    height: 1px;
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+    padding: 10px 0;
+}
