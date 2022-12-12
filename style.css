@@ -277,12 +277,23 @@
 }
 .box-footer{
     display: flex;
-    padding: 60px 70px 20px;
+    padding: 60px 70px 50px;
+    justify-content: space-between;
 }
 .box-footer p{
     color: var(--text-color);
 }
 .box-footer h3{
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15x;
+}
+.logo-footer{
+    margin-bottom: 15px;
+}
+.logo-footer a{
+    font-size: 24px;
+    padding: 4px 12px;
+    background-color: var(--text-color);
+    font-weight: 700;
+    color: var(--black);
 }
