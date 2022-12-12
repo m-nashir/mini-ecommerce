@@ -296,4 +296,27 @@
     background-color: var(--text-color);
     font-weight: 700;
     color: var(--black);
+    margin-bottom: 30px;
+}
+.footer-box-1, .footer-box-2, .footer-box-3, .footer-box-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+.footer-box-1 {
+    flex-basis: 30%;
+}
+.footer-box-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-box-3, .footer-box-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
 }
